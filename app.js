@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/',(req,res)=>{
-    console.log('update in app.js')
+    console.log('update in app.js!')
     res.send('server!!!!')
 })
 
